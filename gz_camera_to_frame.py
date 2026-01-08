@@ -11,17 +11,14 @@ bridge = CvBridge()
 def analyze_frame(frame):
     if frame is None: return None, 0, "No Data"
     
-    # كشف الباركود - نسخة متوافقة مع جميع الإصدارات
     detector = cv2.barcode_BarcodeDetector()
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     res = detector.detectAndDecode(gray)
     
-    # حل مشكلة الـ Unpack تلقائياً
     retval = res[0]
     points = res[2] if len(res) > 2 else None
     is_detected = retval if isinstance(retval, bool) else any(retval)
     
-    # كشف الرصيف الأصفر (Bonus)
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
     lower_yellow = np.array([20, 100, 100])
     upper_yellow = np.array([30, 255, 255])
