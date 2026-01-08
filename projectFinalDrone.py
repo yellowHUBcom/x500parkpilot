@@ -7,7 +7,6 @@ from mavsdk import System
 from mavsdk.mission import MissionItem, MissionPlan
 import gz_camera_to_frame as cam_lib
 
-# إعداد الصوت
 engine = pyttsx3.init()
 def speak(text):
     print(f"[VOICE]: {text}")
