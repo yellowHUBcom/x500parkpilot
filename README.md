@@ -31,12 +31,4 @@ The simulation environment utilizes a professional urban layout to test navigati
 * **Battery Safety:** Implemented a **15% Battery RTL (Return to Launch) Failsafe** to prevent system crashes (solving a previous 6% failure issue).
 * **Vision Stability:** Integrated a **7-second loiter logic** to stabilize the camera feed for 100% barcode recognition accuracy.
 
-## 📂 Project Structure
-```text
-x500parkpilot/
-├── missions/           # Main autonomous Python scripts
-├── worlds/             # Custom environments (Optimized SDF/DAE)
-├── models/             # 3D assets (City buildings & x500 drone)
-├── logs/               # Saved violation reports and JPEGs
-├── requirements.txt    # Python dependencies
-└── README.md           # Documentation
+
