@@ -11,7 +11,7 @@ Born from a personal struggle, ParkPilot ensures that families with disabled chi
 * **Smart Barcode Detection:** Uses an **OpenCV** vision pipeline to scan for "Special Needs" permits on vehicle dashboards.
 * **Instant Reporting:** Automatically captures **Evidence (Photo + GPS + Timestamp)** and notifies Facility Management and Traffic Police simultaneously.
 * **Precision Navigation:** Uses $1 \times 10^{-5}$ GPS offsets to center the drone perfectly over target vehicles.
-
+* 
 ## 🛠️ Technical Stack
 * **Autopilot:** [PX4 Autopilot](https://px4.io/)
 * **Offboard Control:** [MAVSDK-Python](https://mavsdk.mavlink.io/)
