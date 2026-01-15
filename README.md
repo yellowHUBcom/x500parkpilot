@@ -65,6 +65,6 @@ and my classmates Batch2 drone programming bootcamp
 for their  technical support and guidance throughout this journey.
 
 ---
-<p align="center">
-  ## Developed with ❤️ for a more accessible world.
+##<p align="center">
+  Developed with ❤️ for a more accessible world.
 </p>
